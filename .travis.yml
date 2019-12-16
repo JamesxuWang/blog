@@ -27,11 +27,11 @@ after_script:
   - git config user.email "461047035@qq.com"
   - git add .
   - git commit -am "Update blog"
-  - git push --force --quiet "https://${Travis_Token}@${GH_REF}" master:master
+  - git push --force --quiet "https://${Travis_Token}@${GH_REF}" master
 
 branches:
   only:
     - master
 env:
   global:
-    - GH_REF: https://jamesxuwang:${travis}@github.com/jamesxuwang/jamesxuwang.github.io.git
+    - GH_REF: github.com/jamesxuwang/jamesxuwang.github.io.git
