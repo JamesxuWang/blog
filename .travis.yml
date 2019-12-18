@@ -23,7 +23,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "jamesxuwang"
+  - git config user.name "Jamesxuwang"
   - git config user.email "461047035@qq.com"
   - git add .
   - git commit -am "Update blog"
