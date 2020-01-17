@@ -3,9 +3,9 @@ title: FormData上传图片通用办法
 url: 104.html
 id: 104
 categories:
-  - 前端常用记录
+  - web
 date: 2017-09-26 12:28:12
-tags:
+tags: [前端]
 ---
 
 关于FormData 对象的使用。 FormData 对象，使用浏览器原生特性实现文件上传，可以把form中所有表单元素的name与value组成一个queryString，提交到后台。在使用Ajax提交时，使用FormData对象可以减少拼接queryString的工作量。 通过FormData传输的数据格式和表单通过submit() 方法传输的数据格式相同 重要属性：
