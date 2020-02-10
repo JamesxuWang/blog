@@ -3,9 +3,9 @@ title: 二元运算符，三元运算符在JS中的学习
 url: 173.html
 id: 173
 categories:
-  - 前端常用记录
+  - web
 date: 2018-02-06 11:11:55
-tags:
+tags: [前端]
 ---
 
 源于在扩展LayUI后台框架源码的tree模块时发现的，将其混淆的代码稍稍还原一下。
