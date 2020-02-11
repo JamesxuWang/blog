@@ -1,7 +1,5 @@
 ---
 title: 发布image格式（大）文件作为底图（切片or不切片）
-url: 254.html
-id: 254
 categories:
   - webgis
 date: 2018-11-19 18:25:37

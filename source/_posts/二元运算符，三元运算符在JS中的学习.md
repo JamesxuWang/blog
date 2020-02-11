@@ -1,7 +1,5 @@
 ---
 title: 二元运算符，三元运算符在JS中的学习
-url: 173.html
-id: 173
 categories:
   - web
 date: 2018-02-06 11:11:55
