@@ -1,5 +1,5 @@
 ---
-title: 前端架构一----Linux(verdaccio + gitlab)集成 
+title: 前端架构二----Linux(verdaccio + gitlab)集成 
 categories:
   - web
 date: 2020-01-15 09:32:00
