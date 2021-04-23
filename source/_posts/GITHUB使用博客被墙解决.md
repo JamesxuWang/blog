@@ -2,7 +2,7 @@
 title: GITHUB 被墙解决
 categories:
   - 生活随笔
-date: 2021-04-21 19:32:00
+date: 2021-04-15 18:32:00
 tags: [生活日志]
 ---
 
@@ -13,7 +13,7 @@ tags: [生活日志]
 
 在网上搜了解决方案~
 
-配置 git 的代理 (这里，梯子要始终开着使用)
+配置 git 的代理 (这里，梯子要始终开着使用, 以Lantern为例)
 git config --global http.proxy "127.0.0.1:51564"
 git config --global https.proxy "127.0.0.1:51564" 
  https 方式  clone git clone https://github.com/xxx.git 
