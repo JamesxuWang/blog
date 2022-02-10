@@ -99,7 +99,7 @@ theme: abc
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/JamesxuWang/JamesxuWang.github.io.git
+  repository: git@github.com:JamesxuWang/JamesxuWang.github.io.git
   branch: master
 
 live2d:
