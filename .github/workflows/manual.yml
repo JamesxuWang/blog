@@ -37,19 +37,4 @@ jobs:
           # add pandoc to PATH
           export PATH="$PATH:$RUNNER_TOOL_CACHE/pandoc-2.7.3/bin"
           # publish
-          hexo generate
-
-      - name: Publish
-        env:
-            ACTION_DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-            GH_REF: 'github.com/jamesxuwang/jamesxuwang.github.io.git'
-        run: |
-          # get in
-          cd ./public
-          # get publish
-          git init
-          git config user.name "Jamesxuwang"
-          git config user.email "327178020@qq.com"
-          git add .
-          git commit -am "Update blog"
-          git push --force --quiet "https://$ACTION_DEPLOY_KEY@$GH_REF" master
+          hexo generate && hexo deploy
