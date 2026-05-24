@@ -17,7 +17,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '24' # 建议与你本地开发环境版本一致
+          node-version: '12' # 特别重要！
       
       - run: npm ci
       
