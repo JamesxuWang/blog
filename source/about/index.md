@@ -7,4 +7,7 @@ type: "about"
 date: 2019-10-11 08:23:44
 ---
 
-中庸之道 sasasa bbbbbbbbbbbbbbbbbbbbbbbbbbb
+
+努力成为一个有志，又识，有恒的三有青年
+
+正在体系化补充知识，
